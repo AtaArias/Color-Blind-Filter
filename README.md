@@ -1,18 +1,18 @@
 # Color Blind Filter for Love2d
-    
+
     This a shader to simulate how a color blind people see things
 
 ## Usage
 
     Require the main file in the project
 
-    ```bash
+    ```lua
         require 'location/cvd'
     ```
 
     Call the start function to begin the shader
 
-    ```bash
+    ```lua
         function love.draw()
             cvd.start(cvdKind, severeness)
 
@@ -26,7 +26,7 @@
 
     't' for Tritanomaly that makes it hard to tell the difference between blue and green, and between yellow and red.
 
-    ```bash
+    ```lua
         cvd.start('t', severeness) -- t for Tritanomaly
     ```
 
@@ -50,12 +50,12 @@
 
 ## Things to take into consideration
 
-    This is a shader, when you call cvd.start() it will disable the previous shader and if you set a shader after calling cvd.start() that will disable the cvd filter.
+    This is a shader, when you call [cvd.start()] it will disable the previous shader and if you set a shader after calling cvd.start() that will disable the cvd filter.
 
 ## Source
-https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html
+[Color correction matrices](https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html)
 
 ## More info about colorblindess
-https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness
+[Color blindness](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness)
 
 
