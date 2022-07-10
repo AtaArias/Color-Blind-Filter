@@ -1,6 +1,6 @@
 # Color Blind Filter for Love2d
 
-This a shader to simulate how a color blind people see things
+This a shader to simulate how color blind people see things
 
 ## Usage
 
@@ -55,7 +55,7 @@ This is a shader, when you call `cvd.start()` it will disable the previous shade
 ## Source
 [Color correction matrices](https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html)
 
-## More info about colorblindess
+## More info about colorblindness
 [Color blindness](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness)
 
 
