@@ -6,13 +6,13 @@
 
     Require the main file in the project
 
-    ```lua
+    ```bash
         require 'location/cvd'
     ```
 
     Call the start function to begin the shader
 
-    ```lua
+    ```bash
         function love.draw()
             cvd.start(cvdKind, severeness)
 
@@ -26,7 +26,7 @@
 
     't' for Tritanomaly that makes it hard to tell the difference between blue and green, and between yellow and red.
 
-    ```lua
+    ```bash
         cvd.start('t', severeness) -- t for Tritanomaly
     ```
 
@@ -38,7 +38,7 @@
 
     'p' for Protanomaly that makes red look mor green and less bright.
 
-    ```lua
+    ```bash
         cvd.start('p', severeness) -- p for Protanomaly
     ```
 
